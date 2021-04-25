@@ -2,14 +2,9 @@ package leetcode.test;
 
 /**
  * Leetcode 1335. Minimum Difficulty of a Job Schedule
- * You want to schedule a list of jobs in d days. Jobs are dependent (i.e To work on the i-th job, you have to finish all the jobs j where 0 <= j < i).
  *
- * You have to finish at least one task every day. The difficulty of a job schedule is the sum of difficulties of each day of the d days. The difficulty of a day is the maximum difficulty of a job done in that day.
- *
- * Given an array of integers jobDifficulty and an integer d. The difficulty of the i-th job is jobDifficulty[i].
- *
- * Return the minimum difficulty of a job schedule. If you cannot find a schedule for the jobs return -1.
- *
+ * Programmer: Cecilia
+ * Date: Apr 23, 2021
  * Success
  * Runtime: 9 ms, faster than 58.44% of Java online submissions for Minimum Difficulty of a Job Schedule.
  * Memory Usage: 36.3 MB, less than 96.91% of Java online submissions for Minimum Difficulty of a Job Schedule.
